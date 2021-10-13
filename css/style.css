@@ -1,0 +1,738 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Gelasio', serif;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn {
+  padding: 14px 35px 13px 36px;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #C9453B;
+  color: #fff;
+}
+
+.header {
+  padding-top: 47px;
+  padding-bottom: 208px;
+}
+
+.header .main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .main-header .header-navigation-items {
+  padding-left: 0;
+  margin-left: 150px;
+  margin-right: 152px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .main-header .header-navigation-items .header-navigation-item {
+  margin-right: 50px;
+  list-style: none;
+}
+
+.header .main-header .header-navigation-items .header-navigation-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.main-section {
+  padding-bottom: 384px;
+}
+
+.main-section h1 {
+  font-size: 65px;
+  line-height: 78px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.main-section p {
+  opacity: 0.5;
+  color: #fff;
+  margin-bottom: 58px;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.background-image {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 1349px;
+}
+
+.location-section {
+  padding-bottom: 140px;
+}
+
+.location-section h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 43px;
+  color: #000;
+}
+
+.location-section h5 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.location-section .location-main-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.location-section .location-main-blog .location-blog {
+  border: 1px solid #0000001A;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-right: 31px;
+  border-radius: 10px;
+}
+
+.location-section .location-main-blog .location-blog h2 {
+  font-size: 24px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.location-section .location-main-blog .location-blog p {
+  opacity: 0.7;
+  color: #000;
+  margin-bottom: 33px;
+  font-size: 18px;
+}
+
+.travel-section {
+  padding-bottom: 200px;
+}
+
+.travel-section h1 {
+  font-size: 43px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.travel-section p {
+  opacity: 0.6;
+  line-height: 28px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}
+
+.travel-section .main-travel-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.travel-section .main-travel-blog .travel-blog {
+  margin-right: 73px;
+}
+
+.travel-section .main-travel-blog .travel-blog h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #000;
+}
+
+.travel-section .main-travel-blog .travel-blog .travel-blog-info {
+  margin: 8px 0 8px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.travel-section .main-travel-blog .travel-blog .travel-blog-info h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  color: #000;
+}
+
+.travel-section .main-travel-blog .travel-blog .travel-blog-info .location {
+  color: #FC1200;
+}
+
+.travel-section .main-travel-blog .travel-blog .travel-blog-info h5 {
+  opacity: 0.6;
+  margin: 0 50px 0 10px;
+  font-size: 20px;
+  color: #000;
+}
+
+.travel-section .main-travel-blog .travel-blog .travel-blog-info .star {
+  color: #FFC700;
+}
+
+.travel-section .main-travel-blog .travel-blog .travel-blog-info h4 {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #000;
+}
+
+.travel-section .main-travel-blog .travel-blog .travel-blog-price h5 {
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #adabab;
+}
+
+.travel-section .main-travel-blog .travel-blog .travel-blog-price h5 span {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+}
+
+.travel-section .main-travel-blog .blog-4 {
+  margin-right: 0;
+}
+
+.blog-section {
+  padding-bottom: 142px;
+}
+
+.blog-section h1 {
+  font-size: 43px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.blog-section h4 {
+  text-align: center;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 56px;
+}
+
+.blog-section .main-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-section .main-blog .blog-primary {
+  margin-right: 20px;
+}
+
+.blog-section .main-blog .blog-primary h2 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.blog-section .main-blog .blog-primary p {
+  font-size: 18px;
+  opacity: 0.6;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.blog-section .main-blog .blog-primary a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.blog-section .main-blog .blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.blog-section .main-blog .blog img {
+  margin-right: 10px;
+}
+
+.blog-section .main-blog .blog h2 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.blog-section .main-blog .blog p {
+  font-size: 18px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+.blog-section .main-blog .blog a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.footer {
+  padding-top: 70px;
+  padding-bottom: 78px;
+  background-color: #2694990A;
+}
+
+.footer .main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .main-footer .footer-blog .footer-logo {
+  margin-top: 0;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.footer .main-footer .footer-blog h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer .main-footer .footer-blog h5 a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer .main-footer .footer-blog img {
+  margin-top: 20px;
+  margin-right: 27px;
+}
+
+.footer .main-footer .footer-blog h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 42px;
+}
+
+.footer .main-footer .footer-blog input {
+  padding: 16px 11px 13px 20px;
+  border-radius: 5px;
+  margin-right: 32px;
+  border: 1px solid #ccc;
+}
+
+.footer .main-footer .footer-navigation-items {
+  margin-right: 121px;
+}
+
+.footer .main-footer .footer-navigation-items .footer-navigation-item {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.footer .main-footer .footer-navigation-items .footer-navigation-item a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+@media only screen and (max-width: 1280px) {
+  body {
+    width: 1344px;
+  }
+  .header {
+    padding-top: 47px;
+    padding-bottom: 100px;
+  }
+  .main-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main-section {
+    padding-bottom: 384px;
+  }
+  .main-section h1 {
+    font-size: 65px;
+    line-height: 78px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  .main-section p {
+    opacity: 0.5;
+    color: #fff;
+    margin-bottom: 58px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .background-image {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 1349px;
+  }
+  .location-section {
+    padding-bottom: 140px;
+  }
+  .location-section h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 43px;
+    color: #000;
+  }
+  .location-section h5 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 400;
+  }
+  .location-section .location-main-blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .location-section .location-main-blog .blog-4 {
+    margin-right: 0;
+  }
+  .location-section .location-main-blog .location-blog {
+    border: 1px solid #0000001A;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 31px;
+    border-radius: 10px;
+  }
+  .location-section .location-main-blog .location-blog h2 {
+    font-size: 24px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  .location-section .location-main-blog .location-blog p {
+    opacity: 0.7;
+    color: #000;
+    margin-bottom: 33px;
+    font-size: 18px;
+  }
+  .travel-section {
+    padding-bottom: 200px;
+  }
+  .travel-section h1 {
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  .travel-section p {
+    opacity: 0.6;
+    line-height: 28px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+  }
+  .travel-section .main-travel-blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .travel-section .main-travel-blog .blog-1 {
+    margin-left: 200px;
+  }
+  .travel-section .main-travel-blog .travel-blog {
+    margin-right: 193px;
+    margin-bottom: 50px;
+  }
+  .travel-section .main-travel-blog .travel-blog h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #000;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-info {
+    margin: 8px 0 8px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-info h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #000;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-info .location {
+    color: #FC1200;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-info h5 {
+    opacity: 0.6;
+    margin: 0 50px 0 10px;
+    font-size: 20px;
+    color: #000;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-info .star {
+    color: #FFC700;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-info h4 {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #000;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-price h5 {
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #adabab;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-price h5 span {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+  }
+  .travel-section .main-travel-blog .blog-4 {
+    margin-right: 0;
+  }
+  .blog-section {
+    padding-bottom: 142px;
+  }
+  .blog-section h1 {
+    font-size: 43px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .blog-section h4 {
+    text-align: center;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 56px;
+  }
+  .blog-section .main-blog {
+    display: block;
+  }
+  .blog-section .main-blog .blog-primary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .blog-section .main-blog .blog-primary img {
+    margin-right: 50px;
+  }
+  .blog-section .main-blog .blog-primary h2 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .blog-section .main-blog .blog-primary p {
+    font-size: 18px;
+    opacity: 0.6;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .blog-section .main-blog .blog-primary a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  }
+  .blog-section .main-blog .main-blog-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .blog-section .main-blog .main-blog-section .blog {
+    margin-right: 143px;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .blog-section .main-blog .main-blog-section .blog img {
+    margin-right: 10px;
+  }
+  .blog-section .main-blog .main-blog-section .blog h2 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .blog-section .main-blog .main-blog-section .blog p {
+    font-size: 18px;
+    opacity: 0.6;
+    margin-bottom: 10px;
+  }
+  .blog-section .main-blog .main-blog-section .blog a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  }
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 78px;
+    background-color: #2694990A;
+  }
+  .footer .main-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer .main-footer .footer-blog .footer-logo {
+    margin-top: 0;
+    display: block;
+    margin-bottom: 40px;
+  }
+  .footer .main-footer .footer-blog h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer .main-footer .footer-blog h5 a {
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+  }
+  .footer .main-footer .footer-blog img {
+    margin-top: 20px;
+    margin-right: 27px;
+  }
+  .footer .main-footer .footer-blog h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 42px;
+  }
+  .footer .main-footer .footer-blog input {
+    padding: 16px 11px 13px 20px;
+    border-radius: 5px;
+    margin-right: 32px;
+    border: 1px solid #ccc;
+  }
+  .footer .main-footer .footer-navigation-items {
+    margin-right: 121px;
+  }
+  .footer .main-footer .footer-navigation-items .footer-navigation-item {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  .footer .main-footer .footer-navigation-items .footer-navigation-item a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    width: 682px;
+  }
+  body {
+    width: 100%;
+  }
+  .header {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .header .main-header .header-navigation-items {
+    display: none;
+  }
+  .header .main-header a {
+    margin-left: 313px;
+  }
+  .main-section {
+    padding-bottom: 50px;
+  }
+  .main-section a {
+    display: none;
+  }
+  .location-section .location-main-blog {
+    display: block;
+  }
+  .background-image {
+    width: 683px;
+  }
+  .travel-section .main-travel-blog {
+    display: block;
+    text-align: center;
+  }
+  .travel-section .main-travel-blog .blog-1 {
+    margin-left: 0;
+  }
+  .travel-section .main-travel-blog .blog-4 {
+    display: none;
+  }
+  .travel-section .main-travel-blog .travel-blog {
+    margin-right: 0;
+  }
+  .travel-section .main-travel-blog .travel-blog .travel-blog-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blog-section .main-blog {
+    display: block;
+  }
+  .blog-section .main-blog .blog-primary {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .blog-section .main-blog .main-blog-section {
+    display: block;
+    text-align: center;
+  }
+  .blog-section .main-blog .main-blog-section .blog {
+    display: block;
+    margin-right: 0;
+  }
+  .footer .main-footer {
+    display: block;
+    text-align: center;
+  }
+  .footer .main-footer .footer-blog .footer-logo {
+    display: inline-block;
+  }
+  .footer .main-footer .footer-navigation-items {
+    margin-right: 0;
+    padding-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
